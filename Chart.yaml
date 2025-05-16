@@ -1,5 +1,20 @@
 apiVersion: v2
 name: nginx
-version: 1.0.0
-description: This is nginx deployment
+version: 2.0.0
+description: This is nginx deployment and manage nginx application
 appVersion: 1.2.0 # nginx app version
+
+
+
+# helm install nginx .
+# helm list
+# helm upgrade nginx .
+# helm history nginx
+# helm rollback nginx
+# helm rollback nginx 1
+# helm uninstall nginx
+# helm repo list
+# helm repo update
+# helm upgrade --install aws-ebs-csi-driver --namespace kube-system aws-ebs-csi-driver/aws-ebs-csi-driver
+# helm uninstall aws-ebs-csi-driver -n kube-system
+# helm list -n kube-system
